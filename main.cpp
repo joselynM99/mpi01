@@ -16,8 +16,6 @@ if(rank==0){
     std::printf("Soy el rank %d\n", rank);
 }
     
-
-   // while(1);
     MPI_Finalize();
     return 0;
 }
